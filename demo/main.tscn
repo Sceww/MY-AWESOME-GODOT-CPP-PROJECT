@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cf0tp75cv7lj3"]
+
+[ext_resource type="Texture2D" uid="uid://bb6gh3vvcmb3u" path="res://icon.svg" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GDExample" type="GDExample" parent="."]
+amplitude = 35.97
+speed = 20.0
+position = Vector2(-10, 2)
+texture = ExtResource("1_ig7tw")
+
+[node name="Camera2D" type="Camera2D" parent="."]
