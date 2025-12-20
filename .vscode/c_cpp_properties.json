@@ -13,7 +13,7 @@
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64",
             "includePath": [
-                "${workspaceFolder}/include",
+                "${workspaceFolder}",
                 "${workspaceFolder}/godot-cpp/gen/include/",
                 "${workspaceFolder}/godot-cpp/include/",
                 "${workspaceFolder}/godot-cpp/gdextension/"

@@ -12,7 +12,7 @@ env = SConscript("godot-cpp/SConstruct")
 env.Append(CPPPATH=["src/"])
 
 # Collects all .cpp files in the 'src' folder as compile targets.
-sources = Glob("src/*.cpp")
+sources = Glob("module/src/*.cpp")
 
 # The filename for the dynamic library for this GDExtension.
 # $SHLIBPREFIX is a platform specific prefix for the dynamic library ('lib' on Unix, '' on Windows).
